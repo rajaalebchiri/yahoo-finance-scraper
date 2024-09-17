@@ -1,0 +1,21 @@
+2024-09-17 15:12:17,225 - INFO - Starting the scraping process
+2024-09-17 15:12:17,483 - INFO - Fetched 1 news
+2024-09-17 15:12:17,484 - INFO - Inserted books into the database
+2024-09-17 15:12:17,484 - INFO - Scraping process completed
+2024-09-17 15:15:32,390 - INFO - Starting the scraping process
+2024-09-17 15:15:32,641 - INFO - Fetched 5 news
+2024-09-17 15:15:32,642 - INFO - Inserted books into the database
+2024-09-17 15:15:32,643 - INFO - Scraping process completed
+2024-09-17 15:25:05,184 - INFO - Starting the scraping process
+2024-09-17 15:25:05,439 - INFO - Fetched 5 news
+2024-09-17 15:25:05,440 - INFO - Inserted books into the database
+2024-09-17 15:25:05,441 - INFO - Scraping process completed
+2024-09-17 15:25:30,659 - INFO - Starting the scraping process
+2024-09-17 15:25:30,915 - INFO - Fetched 5 news
+2024-09-17 15:25:30,917 - INFO - Inserted books into the database
+2024-09-17 15:25:30,917 - INFO - Scraping process completed
+2024-09-17 15:25:37,026 - INFO - Starting the scraping process
+2024-09-17 15:25:37,282 - INFO - Fetched 5 news
+2024-09-17 15:25:37,283 - INFO - Inserted books into the database
+2024-09-17 15:25:37,283 - INFO - Exported news to CSV
+2024-09-17 15:25:37,284 - INFO - Scraping process completed
