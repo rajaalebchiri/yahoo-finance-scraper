@@ -1,4 +1,4 @@
-# Wikipedia News Scraper
+# Yahoo Financial Scraper
 
 ## Overview
 
