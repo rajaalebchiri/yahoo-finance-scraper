@@ -2,21 +2,23 @@
 
 ## Overview
 
-This project is a Python-based web scraper designed to extract the latest news headlines from Wikipedia's current news page. It demonstrates a modular approach to web scraping, data processing, and storage, with the added capability of exporting data to CSV format.
+This project is a Python-based web scraper designed to extract useful financial data from yahoo finance website. It demonstrates a modular approach to web scraping, data processing, and storage, with the added capability of exporting data to CSV format.
 
-URL: https://en.wikinews.org/wiki/Main_Page
+URL: https://finance.yahoo.com/
 
 ## Features
 
-- Scrapes news headlines and summaries from Wikipedia's current news page
-- Stores the data in a SQLite database
-- Offers an option to export data to CSV format
-- Implements logging for better tracking and debugging
+- Scrape financial data for multiple stocks using ticker symbols
+- Store scraped data in a SQLite database
+- Option to export data as a CSV file
+- Option to display and export data as a pandas DataFrame
+- Logging functionality for tracking the scraping process
+- Command-line interface for easy usage
 
 ## Project Structure
 
 ```
-wikipedia_news_scraper/
+yahoo_finance_scraper/
 │
 ├── scraper/
 │   ├── __init__.py
@@ -41,6 +43,7 @@ wikipedia_news_scraper/
 ├── utils/
 │   ├── __init__.py
 │   └── logger.py
+│   └── parser.py
 │
 ├── main.py
 ├── requirements.txt
@@ -51,8 +54,8 @@ wikipedia_news_scraper/
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/wikipedia-news-scraper.git
-   cd wikipedia-news-scraper
+   git clone https://github.com/yourusername/yahoo-finance-scraper.git
+   cd yahoo-finance-scraper
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -68,15 +71,44 @@ wikipedia_news_scraper/
 
 ## Usage
 
-1. To run the scraper and store data in the database:
+To run the scraper:
+
+```
+python main.py --tickers AAPL GOOGL MSFT [options]
+```
+
+### Command-line Options
+
+- `--tickers`: List of stock ticker symbols to scrape (required)
+- `--pandas`: Display data as a pandas DataFrame and export to 'data.csv'
+- `--csv`: Export data to 'finance.csv'
+
+### Examples
+
+1. Scrape data and store in SQLite database:
    ```
-   python main.py
+   python main.py --tickers AAPL GOOGL MSFT
    ```
 
-2. To run the scraper, store data in the database, and generate a CSV file:
+2. Scrape data, display as pandas DataFrame, and export to 'data.csv':
    ```
-   python main.py --csv
+   python main.py --tickers AAPL GOOGL MSFT --pandas
    ```
+
+3. Scrape data and export to 'finance.csv':
+   ```
+   python main.py --tickers AAPL GOOGL MSFT --csv
+   ```
+
+## Output
+
+1. SQLite database: All scraped data is stored in a SQLite database (table and database details to be specified).
+
+2. Console output: If the `--pandas` option is used, the scraped data will be displayed in the console as a pandas DataFrame.
+
+3. CSV files:
+   - If the `--pandas` option is used, printed as df and data will be exported to 'data.csv'.
+   - If the `--csv` option is used, data will be exported to 'finance.csv'.
 
 ## Configuration
 

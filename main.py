@@ -1,31 +1,43 @@
 # main.py
-from scraper.spider import fetch_news
-from database.db_handler import create_table, insert_news
+from scraper.spider import scrape_tickers
+from database.db_handler import create_table, insert_tickers
 from export.csv_exporter import export_to_csv
+from export.pandas_exporter import export_to_pandas
 from utils.logger import setup_logger
-import argparse
+from utils.parser import setup_argparse
+
 
 def main():
-    parser = argparse.ArgumentParser(description="CSV Scraping Export")
-    parser.add_argument("--csv", action="store_true", help="Export data to CSV")
+
+    parser = setup_argparse()
+
     args = parser.parse_args()
-    
+
     logger = setup_logger()
     logger.info("Starting the scraping process")
+
+    tickers = scrape_tickers(args.tickers)
+    logger.info(f"Fetched {len(tickers)} tickers")
     
     create_table()
-    
-    news = fetch_news()
-    logger.info(f"Fetched {len(news)} news")
-    
-    insert_news(news)
-    logger.info("Inserted books into the database")
-    
-    if args.csv:
-        export_to_csv(news)
-        logger.info("Exported news to CSV")
+
+    insert_tickers(tickers)
+    logger.info("Inserted tickers into the database")
+
+    if args.pandas:
+        df = export_to_pandas(tickers)
+        logger.info("Printing tickers informations as a Pandas DataFrame")
+        print(df)
+        logger.info("Exporting tickers informations as a CSV with name data.csv")
+        print("Data exported successfully as data.csv")
+    elif args.csv:
+        export_to_csv(tickers)
+        logger.info("Exported financial data to CSV")
+        print("Data exported successfully as finance.csv")
+
     
     logger.info("Scraping process completed")
-    
+
+
 if __name__ == "__main__":
     main()

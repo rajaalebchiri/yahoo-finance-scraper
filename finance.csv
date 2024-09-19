@@ -1,0 +1,6 @@
+Ticker,Price,Company Name,Volume,Open,Previous Close,Date Time
+META,557.89,"Meta Platforms, Inc. (META)","8,385,365 ",549.86 ,537.95 ,"09/19/2024, 17:58"
+NVDA,119.33,NVIDIA Corporation (NVDA),"167,368,101 ",117.32 ,113.37 ,"09/19/2024, 17:58"
+BABA,87.83,Alibaba Group Holding Limited (BABA),"10,779,511 ",87.62 ,84.42 ,"09/19/2024, 17:58"
+AMD,158.57,"Advanced Micro Devices, Inc. (AMD)","24,157,871 ",153.90 ,148.29 ,"09/19/2024, 17:58"
+TSLA,242.68,"Tesla, Inc. (TSLA)","64,713,979 ",233.99 ,227.20 ,"09/19/2024, 17:58"

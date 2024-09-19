@@ -1,21 +1,115 @@
-2024-09-17 15:12:17,225 - INFO - Starting the scraping process
-2024-09-17 15:12:17,483 - INFO - Fetched 1 news
-2024-09-17 15:12:17,484 - INFO - Inserted books into the database
-2024-09-17 15:12:17,484 - INFO - Scraping process completed
-2024-09-17 15:15:32,390 - INFO - Starting the scraping process
-2024-09-17 15:15:32,641 - INFO - Fetched 5 news
-2024-09-17 15:15:32,642 - INFO - Inserted books into the database
-2024-09-17 15:15:32,643 - INFO - Scraping process completed
-2024-09-17 15:25:05,184 - INFO - Starting the scraping process
-2024-09-17 15:25:05,439 - INFO - Fetched 5 news
-2024-09-17 15:25:05,440 - INFO - Inserted books into the database
-2024-09-17 15:25:05,441 - INFO - Scraping process completed
-2024-09-17 15:25:30,659 - INFO - Starting the scraping process
-2024-09-17 15:25:30,915 - INFO - Fetched 5 news
-2024-09-17 15:25:30,917 - INFO - Inserted books into the database
-2024-09-17 15:25:30,917 - INFO - Scraping process completed
-2024-09-17 15:25:37,026 - INFO - Starting the scraping process
-2024-09-17 15:25:37,282 - INFO - Fetched 5 news
-2024-09-17 15:25:37,283 - INFO - Inserted books into the database
-2024-09-17 15:25:37,283 - INFO - Exported news to CSV
-2024-09-17 15:25:37,284 - INFO - Scraping process completed
+2024-09-19 16:01:58,359 - INFO - Starting the scraping process
+2024-09-19 16:02:06,987 - INFO - Starting the scraping process
+2024-09-19 16:02:45,101 - INFO - Starting the scraping process
+2024-09-19 16:03:02,397 - INFO - Starting the scraping process
+2024-09-19 16:03:12,275 - INFO - Starting the scraping process
+2024-09-19 16:03:58,538 - INFO - Starting the scraping process
+2024-09-19 16:04:08,548 - INFO - Starting the scraping process
+2024-09-19 16:04:56,596 - INFO - Starting the scraping process
+2024-09-19 16:06:23,138 - INFO - Starting the scraping process
+2024-09-19 16:08:29,737 - INFO - Starting the scraping process
+2024-09-19 16:08:31,675 - INFO - Exported news to CSV
+2024-09-19 16:09:18,182 - INFO - Starting the scraping process
+2024-09-19 16:09:19,310 - INFO - Exported news to CSV
+2024-09-19 16:13:51,663 - INFO - Starting the scraping process
+2024-09-19 16:13:54,380 - INFO - Exported news to CSV
+2024-09-19 16:14:34,660 - INFO - Starting the scraping process
+2024-09-19 16:14:35,874 - INFO - Exported news to CSV
+2024-09-19 16:14:52,620 - INFO - Starting the scraping process
+2024-09-19 16:14:53,627 - INFO - Exported news to CSV
+2024-09-19 16:34:59,724 - INFO - Starting the scraping process
+2024-09-19 16:35:00,784 - INFO - Exported news to CSV
+2024-09-19 16:35:44,499 - INFO - Starting the scraping process
+2024-09-19 16:35:45,859 - INFO - Exported news to CSV
+2024-09-19 16:35:58,222 - INFO - Starting the scraping process
+2024-09-19 16:35:59,308 - INFO - Exported news to CSV
+2024-09-19 16:36:26,075 - INFO - Starting the scraping process
+2024-09-19 16:36:27,274 - INFO - Exported news to CSV
+2024-09-19 16:44:27,035 - INFO - Starting the scraping process
+2024-09-19 16:44:28,160 - INFO - Exported news to CSV
+2024-09-19 16:44:44,082 - INFO - Starting the scraping process
+2024-09-19 16:44:45,165 - INFO - Exported news to CSV
+2024-09-19 16:45:13,592 - INFO - Starting the scraping process
+2024-09-19 16:45:15,405 - INFO - Exported news to CSV
+2024-09-19 16:45:22,452 - INFO - Starting the scraping process
+2024-09-19 16:45:23,493 - INFO - Exported news to CSV
+2024-09-19 16:45:53,175 - INFO - Starting the scraping process
+2024-09-19 16:45:54,276 - INFO - Exported news to CSV
+2024-09-19 16:46:07,824 - INFO - Starting the scraping process
+2024-09-19 16:46:09,019 - INFO - Exported news to CSV
+2024-09-19 16:46:23,766 - INFO - Starting the scraping process
+2024-09-19 16:46:24,867 - INFO - Exported news to CSV
+2024-09-19 16:48:03,931 - INFO - Starting the scraping process
+2024-09-19 16:48:05,100 - INFO - Exported news to CSV
+2024-09-19 16:48:26,979 - INFO - Starting the scraping process
+2024-09-19 16:48:28,153 - INFO - Exported news to CSV
+2024-09-19 16:49:57,430 - INFO - Starting the scraping process
+2024-09-19 16:49:58,834 - INFO - Exported news to CSV
+2024-09-19 16:50:21,494 - INFO - Starting the scraping process
+2024-09-19 16:50:23,421 - INFO - Exported news to CSV
+2024-09-19 16:55:37,130 - INFO - Starting the scraping process
+2024-09-19 16:55:38,381 - INFO - Exported news to CSV
+2024-09-19 16:55:58,167 - INFO - Starting the scraping process
+2024-09-19 16:55:59,226 - INFO - Exported news to CSV
+2024-09-19 16:56:13,121 - INFO - Starting the scraping process
+2024-09-19 16:58:22,021 - INFO - Starting the scraping process
+2024-09-19 16:59:12,160 - INFO - Starting the scraping process
+2024-09-19 17:00:17,681 - INFO - Starting the scraping process
+2024-09-19 17:00:18,782 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 17:00:18,787 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 17:01:09,593 - INFO - Starting the scraping process
+2024-09-19 17:01:11,440 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 17:01:11,444 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 17:01:11,444 - INFO - Scraping process completed
+2024-09-19 17:14:51,103 - INFO - Starting the scraping process
+2024-09-19 17:14:53,084 - INFO - Fetched 2 tickers
+2024-09-19 17:15:44,701 - INFO - Starting the scraping process
+2024-09-19 17:15:46,712 - INFO - Fetched 2 tickers
+2024-09-19 17:21:52,203 - INFO - Starting the scraping process
+2024-09-19 17:21:54,922 - INFO - Fetched 2 tickers
+2024-09-19 17:22:19,777 - INFO - Starting the scraping process
+2024-09-19 17:22:20,949 - INFO - Fetched 2 tickers
+2024-09-19 17:22:20,951 - INFO - Inserted tickers into the database
+2024-09-19 17:22:20,952 - INFO - Scraping process completed
+2024-09-19 17:22:24,529 - INFO - Starting the scraping process
+2024-09-19 17:22:25,570 - INFO - Fetched 2 tickers
+2024-09-19 17:23:33,841 - INFO - Starting the scraping process
+2024-09-19 17:23:34,871 - INFO - Fetched 2 tickers
+2024-09-19 17:40:58,465 - INFO - Starting the scraping process
+2024-09-19 17:41:00,423 - INFO - Fetched 2 tickers
+2024-09-19 17:41:53,072 - INFO - Starting the scraping process
+2024-09-19 17:41:55,017 - INFO - Fetched 2 tickers
+2024-09-19 17:42:15,341 - INFO - Starting the scraping process
+2024-09-19 17:42:16,558 - INFO - Fetched 2 tickers
+2024-09-19 17:42:49,230 - INFO - Starting the scraping process
+2024-09-19 17:42:50,476 - INFO - Fetched 2 tickers
+2024-09-19 17:42:50,478 - INFO - Inserted tickers into the database
+2024-09-19 17:42:50,483 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 17:42:50,487 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 17:42:50,487 - INFO - Scraping process completed
+2024-09-19 17:43:12,450 - INFO - Starting the scraping process
+2024-09-19 17:43:13,634 - INFO - Fetched 2 tickers
+2024-09-19 17:46:04,270 - INFO - Starting the scraping process
+2024-09-19 17:46:05,400 - INFO - Fetched 2 tickers
+2024-09-19 17:46:05,403 - INFO - Inserted tickers into the database
+2024-09-19 17:46:05,407 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 17:46:05,410 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 17:46:05,411 - INFO - Scraping process completed
+2024-09-19 17:49:59,969 - INFO - Starting the scraping process
+2024-09-19 17:50:01,914 - INFO - Fetched 2 tickers
+2024-09-19 17:50:01,916 - INFO - Inserted tickers into the database
+2024-09-19 17:50:01,916 - INFO - Scraping process completed
+2024-09-19 17:50:48,358 - INFO - Starting the scraping process
+2024-09-19 17:50:52,703 - INFO - Fetched 5 tickers
+2024-09-19 17:50:52,705 - INFO - Inserted tickers into the database
+2024-09-19 17:50:52,709 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 17:50:52,713 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 17:50:52,713 - INFO - Scraping process completed
+2024-09-19 17:57:40,638 - INFO - Starting the scraping process
+2024-09-19 17:57:45,675 - INFO - Fetched 5 tickers
+2024-09-19 17:57:45,678 - INFO - Inserted tickers into the database
+2024-09-19 17:58:39,937 - INFO - Starting the scraping process
+2024-09-19 17:58:42,544 - INFO - Fetched 5 tickers
+2024-09-19 17:58:42,546 - INFO - Inserted tickers into the database
+2024-09-19 17:58:42,546 - INFO - Exported news to CSV
+2024-09-19 17:58:42,546 - INFO - Scraping process completed
