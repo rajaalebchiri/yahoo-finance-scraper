@@ -10,10 +10,10 @@ URL: https://finance.yahoo.com/
 
 - Scrape financial data for multiple stocks using ticker symbols
 - Store scraped data in a SQLite database
-- Option to export data as a CSV file
+- Option to export data as a CSV format
 - Option to display and export data as a pandas DataFrame
 - Logging functionality for tracking the scraping process
-- Command-line interface for easy usage
+- User-friendly command-line interface
 
 ## Project Structure
 

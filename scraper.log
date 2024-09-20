@@ -113,3 +113,118 @@
 2024-09-19 17:58:42,546 - INFO - Inserted tickers into the database
 2024-09-19 17:58:42,546 - INFO - Exported news to CSV
 2024-09-19 17:58:42,546 - INFO - Scraping process completed
+2024-09-19 21:23:04,167 - INFO - Starting the scraping process
+2024-09-19 21:24:11,353 - INFO - Fetched 49 tickers
+2024-09-19 21:24:11,357 - INFO - Inserted tickers into the database
+2024-09-19 21:24:11,357 - INFO - Exported financial data to CSV
+2024-09-19 21:24:11,357 - INFO - Scraping process completed
+2024-09-19 21:25:56,822 - INFO - Starting the scraping process
+2024-09-19 21:26:23,246 - INFO - Fetched 49 tickers
+2024-09-19 21:26:23,250 - INFO - Inserted tickers into the database
+2024-09-19 21:26:23,255 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-19 21:26:23,264 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-19 21:26:23,264 - INFO - Scraping process completed
+2024-09-20 13:03:23,289 - INFO - Starting the scraping process
+2024-09-20 13:03:24,310 - INFO - Fetched 2 tickers
+2024-09-20 13:03:24,317 - INFO - Inserted tickers into the database
+2024-09-20 13:03:24,317 - INFO - Scraping process completed
+2024-09-20 13:04:36,443 - INFO - Starting the scraping process
+2024-09-20 13:04:37,705 - INFO - Fetched 2 tickers
+2024-09-20 13:04:37,707 - INFO - Inserted tickers into the database
+2024-09-20 13:08:26,190 - INFO - Starting the scraping process
+2024-09-20 13:08:27,388 - INFO - Fetched 2 tickers
+2024-09-20 13:08:27,390 - INFO - Inserted tickers into the database
+2024-09-20 13:08:27,391 - ERROR - Start Date and End Date are required for historical data
+2024-09-20 13:11:32,786 - INFO - Starting the scraping process
+2024-09-20 13:11:33,976 - INFO - Fetched 2 tickers
+2024-09-20 13:11:33,979 - INFO - Inserted tickers into the database
+2024-09-20 13:11:33,979 - ERROR - Start Date and End Date are required for historical data
+2024-09-20 13:51:52,478 - INFO - Starting the scraping process
+2024-09-20 13:51:53,693 - INFO - Fetched 2 tickers
+2024-09-20 13:51:53,695 - INFO - Inserted tickers into the database
+2024-09-20 13:51:53,696 - ERROR - Start Date and End Date are required for historical data
+2024-09-20 13:52:10,530 - INFO - Starting the scraping process
+2024-09-20 13:52:11,790 - INFO - Fetched 2 tickers
+2024-09-20 13:52:11,791 - INFO - Inserted tickers into the database
+2024-09-20 13:52:11,791 - ERROR - Start Date and End Date are required for historical data
+2024-09-20 13:52:24,121 - INFO - Starting the scraping process
+2024-09-20 13:52:25,341 - INFO - Fetched 2 tickers
+2024-09-20 13:52:25,344 - INFO - Inserted tickers into the database
+2024-09-20 13:52:25,344 - ERROR - Start Date must be before End Date
+2024-09-20 13:52:39,741 - INFO - Starting the scraping process
+2024-09-20 13:52:41,063 - INFO - Fetched 2 tickers
+2024-09-20 13:52:41,065 - INFO - Inserted tickers into the database
+2024-09-20 13:53:17,869 - INFO - Starting the scraping process
+2024-09-20 13:53:19,025 - INFO - Fetched 2 tickers
+2024-09-20 13:53:19,027 - INFO - Inserted tickers into the database
+2024-09-20 13:53:19,027 - ERROR - Start Date must be before End Date
+2024-09-20 13:56:58,886 - INFO - Starting the scraping process
+2024-09-20 13:56:59,946 - INFO - Fetched 2 tickers
+2024-09-20 13:56:59,949 - INFO - Inserted tickers into the database
+2024-09-20 13:57:22,912 - INFO - Starting the scraping process
+2024-09-20 13:57:24,198 - INFO - Fetched 2 tickers
+2024-09-20 13:57:24,201 - INFO - Inserted tickers into the database
+2024-09-20 13:57:41,807 - INFO - Starting the scraping process
+2024-09-20 13:57:43,017 - INFO - Fetched 2 tickers
+2024-09-20 13:57:43,020 - INFO - Inserted tickers into the database
+2024-09-20 13:57:43,020 - ERROR - Start Date must be before End Date
+2024-09-20 13:57:47,111 - INFO - Starting the scraping process
+2024-09-20 13:57:48,314 - INFO - Fetched 2 tickers
+2024-09-20 13:57:48,315 - INFO - Inserted tickers into the database
+2024-09-20 13:58:00,454 - INFO - Starting the scraping process
+2024-09-20 13:58:01,656 - INFO - Fetched 2 tickers
+2024-09-20 13:58:01,659 - INFO - Inserted tickers into the database
+2024-09-20 13:58:01,659 - INFO - Scraping process completed
+2024-09-20 13:58:22,187 - INFO - Starting the scraping process
+2024-09-20 13:58:23,201 - INFO - Fetched 2 tickers
+2024-09-20 13:58:23,204 - INFO - Inserted tickers into the database
+2024-09-20 13:58:23,204 - INFO - Scraping process completed
+2024-09-20 14:31:25,104 - INFO - Starting the scraping process
+2024-09-20 14:31:26,496 - INFO - Fetched 2 tickers
+2024-09-20 14:31:26,498 - INFO - Inserted tickers into the database
+2024-09-20 14:32:21,688 - INFO - Starting the scraping process
+2024-09-20 14:32:22,857 - INFO - Fetched 2 tickers
+2024-09-20 14:32:22,859 - INFO - Inserted tickers into the database
+2024-09-20 14:32:44,771 - INFO - Starting the scraping process
+2024-09-20 14:32:45,835 - INFO - Fetched 2 tickers
+2024-09-20 14:32:45,838 - INFO - Inserted tickers into the database
+2024-09-20 14:57:56,750 - INFO - Starting the scraping process
+2024-09-20 14:57:59,330 - INFO - Fetched 2 tickers
+2024-09-20 14:57:59,334 - INFO - Inserted tickers into the database
+2024-09-20 14:57:59,334 - INFO - Scraping process completed
+2024-09-20 14:57:59,337 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-20 14:58:20,758 - INFO - Starting the scraping process
+2024-09-20 14:58:21,844 - INFO - Fetched 2 tickers
+2024-09-20 14:58:21,846 - INFO - Inserted tickers into the database
+2024-09-20 14:58:21,846 - INFO - Scraping process completed
+2024-09-20 14:58:21,849 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-20 15:00:46,130 - INFO - Starting the scraping process
+2024-09-20 15:00:47,357 - INFO - Fetched 2 tickers
+2024-09-20 15:00:47,360 - INFO - Inserted tickers into the database
+2024-09-20 15:00:47,360 - INFO - Scraping process completed
+2024-09-20 15:00:47,363 - INFO - Printing tickers informations as a Pandas DataFrame
+2024-09-20 15:00:47,367 - INFO - Exporting tickers informations as a CSV with name data.csv
+2024-09-20 15:00:47,367 - INFO - Starting the scraping process
+2024-09-20 15:00:48,648 - INFO - Fetched 2 tickers
+2024-09-20 15:00:48,650 - INFO - Inserted tickers into the database
+2024-09-20 15:00:48,650 - INFO - Scraping process completed
+2024-09-20 15:45:17,265 - INFO - Starting the scraping process
+2024-09-20 15:45:18,275 - INFO - Fetched 2 tickers
+2024-09-20 15:45:18,285 - INFO - Inserted tickers into the database
+2024-09-20 15:45:18,285 - INFO - Scraping process completed
+2024-09-20 15:52:21,743 - INFO - Starting the scraping process
+2024-09-20 15:52:24,742 - INFO - Fetched 82 historical data
+2024-09-20 15:52:24,746 - INFO - Inserted historical data into the database
+2024-09-20 15:52:24,746 - INFO - Scraping process completed
+2024-09-20 15:52:24,746 - INFO - Starting the scraping process
+2024-09-20 15:52:25,958 - INFO - Fetched 2 tickers
+2024-09-20 15:52:25,961 - INFO - Inserted tickers into the database
+2024-09-20 15:52:25,961 - INFO - Scraping process completed
+2024-09-20 15:53:56,917 - INFO - Starting the scraping process
+2024-09-20 15:53:58,969 - INFO - Fetched 82 historical data
+2024-09-20 15:53:58,973 - INFO - Inserted historical data into the database
+2024-09-20 15:53:58,973 - INFO - Scraping process completed
+2024-09-20 15:53:58,973 - INFO - Starting the scraping process
+2024-09-20 15:54:00,106 - INFO - Fetched 2 tickers
+2024-09-20 15:54:00,108 - INFO - Inserted tickers into the database
+2024-09-20 15:54:00,108 - INFO - Scraping process completed

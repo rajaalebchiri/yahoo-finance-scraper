@@ -19,6 +19,7 @@ def setup_argparse():
     # Data type selection
     parser.add_argument('--realtime', action='store_true',
                         help='Scrape real-time data instead of end-of-day data')
+   
     parser.add_argument('--historical', action='store_true',
                         help='Scrape historical data')
 
