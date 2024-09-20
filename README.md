@@ -9,6 +9,7 @@ URL: https://finance.yahoo.com/
 ## Features
 
 - Scrape financial data for multiple stocks using ticker symbols
+- Scrape historical stock data for specific date ranges
 - Store scraped data in a SQLite database
 - Option to export data as a CSV format
 - Option to display and export data as a pandas DataFrame
@@ -98,6 +99,10 @@ python main.py --tickers AAPL GOOGL MSFT [options]
 3. Scrape data and export to 'finance.csv':
    ```
    python main.py --tickers AAPL GOOGL MSFT --csv
+   ```
+4. Scrape historical data for tickers between specific dates:
+   ```
+   python main.py --tickers AAPL GOOGL MSFT --historical --start-date 2022-01-01 --end-date 2022-12-31
    ```
 
 ## Output
