@@ -8,83 +8,85 @@ from utils.parser import setup_argparse
 from data_processing.processor import date_validator, validate_date_range
 
 
-def main():
-
-    parser = setup_argparse()
-
-    args = parser.parse_args()
-
-    # turn it into --output
-    if args.pandas:
-        logger = setup_logger()
-        logger.info("Starting the scraping process")
-
-        tickers = scrape_tickers(args.tickers)
-        logger.info("Fetched %d tickers", len(tickers))
-
-        create_table()
-
-        insert_tickers(tickers)
-        logger.info("Inserted tickers into the database")
-        logger.info("Scraping process completed")
-        df = export_to_pandas(tickers)
-        logger.info("Printing tickers informations as a Pandas DataFrame")
-        print(df)
-        logger.info(
-            "Exporting tickers informations as a CSV with name data.csv")
-        print("Data exported successfully as data.csv")
-    # turn it into --output
-    elif args.csv:
-        logger = setup_logger()
-        logger.info("Starting the scraping process")
-
-        tickers = scrape_tickers(args.tickers)
-        logger.info("Fetched %d tickers", len(tickers))
-
-        create_table()
-
-        insert_tickers(tickers)
-        logger.info("Inserted tickers into the database")
-        logger.info("Scraping process completed")
-        export_to_csv(tickers)
-        logger.info("Exported financial data to CSV")
-        print("Data exported successfully as finance.csv")
-    elif args.historical:
-        if not args.start_date or not args.end_date:
-            logger.error(
-                "Start Date and End Date are required for historical data")
-            parser.error("--historical requires --start-date and --end-date")
-        elif not date_validator(args.start_date) or not date_validator(args.end_date):
-            return
-        elif args.start_date > args.end_date:
-            logger.error("Start Date must be before End Date")
-            parser.error("Start Date must be before End Date")
-        elif not validate_date_range(args.start_date, args.end_date):
-            return
-
-        logger = setup_logger()
-        logger.info("Starting the scraping process")
-        data =scrape_historical_data(args.tickers, args.start_date, args.end_date)
-        logger.info("Fetched %d historical data", len(data))
-        
-        create_historical_table()
-        
-        insert_historical_tickers(tickers_data = data)
-        logger.info("Inserted historical data into the database")
-        logger.info("Scraping process completed")
-    
-    logger = setup_logger()
-    logger.info("Starting the scraping process")
-
+def process_tickers(args, logger):
+    """Processing Tickers"""
+    logger.info("Starting the ticker scraping process ...")
     tickers = scrape_tickers(args.tickers)
     logger.info("Fetched %d tickers", len(tickers))
-
     create_table()
-
     insert_tickers(tickers)
     logger.info("Inserted tickers into the database")
     logger.info("Scraping process completed")
+    return tickers
 
+
+def process_historical_data(args, logger):
+    """Processing historical data"""
+    if not validate_historical_args(args, logger):
+        return None
+    logger.info("Starting the historical data scraping process")
+    data = scrape_historical_data(args.tickers, args.start_date, args.end_date)
+    logger.info(f"Fetched historical data for {len(data)} tickers")
+    create_historical_table()
+    insert_historical_tickers(tickers_data=data)
+    logger.info("Inserted historical data into the database")
+
+    return data
+
+
+def validate_historical_args(args, logger):
+    """Validate historical data arguments"""
+    if not args.start_date or not args.end_date:
+        logger.error(
+            "Start Date and End Date are required for historical data")
+        return False
+    if not date_validator(args.start_date) or not date_validator(args.end_date):
+        logger.error("Inbalid date format")
+        return False
+    if args.start_date > args.end_date:
+        logger.error("Start Date cannot be greater than End Date")
+        return False
+    if not validate_date_range(args.start_date, args.end_date):
+        return False
+    return True
+
+
+def output_data(data, args, logger):
+    """Data output types"""
+    if args.csv:
+        if args.historical:
+            export_to_csv(data, data_type='historical')
+        else:
+            export_to_csv(data)
+        logger.info("Exported data to CSV")
+        print("Data exported successfully as finance.csv")
+    elif args.pandas:
+        df = export_to_pandas(data)
+        logger.info("Converted data to Pandas DataFrame")
+        print(df)
+        logger.info("Exporting data as a CSV with name data.csv")
+        print("Data exported successfully as data.csv")
+    else:
+        logger.info(
+            "Data inserted into database. No additional output specified.")
+
+
+def main():
+    """main functions"""
+    parser = setup_argparse()
+    args = parser.parse_args()
+    logger = setup_logger()
+
+    if args.historical:
+        data = process_historical_data(args, logger)
+    else:
+        data = process_tickers(args, logger)
+
+    if data:
+        output_data(data, args, logger)
+        logger.info("Processing completed successfully")
+    else:
+        logger.error("No data to process. Please check your inputs and try again")
 
 if __name__ == "__main__":
     main()

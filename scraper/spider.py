@@ -14,8 +14,8 @@ def scrape_tickers(tickers):
 
         live_price_element = soup.find(
             'fin-streamer', {'data-symbol': ticker, 'data-field': 'regularMarketPrice'})
-
-        company_name = soup.find('h1', class_='yf-vfa1ac').get_text()
+        
+        company_name = soup.select_one('section[class*="yf-"] h1').get_text()
 
         voulume = soup.find(
             'fin-streamer', {'data-symbol': ticker, 'data-field': 'regularMarketVolume'}).get_text()
@@ -64,10 +64,10 @@ def scrape_historical_data(tickers, start_date, end_date):
 
         tbody = soup.find('tbody')
 
-        lines = tbody.find_all('tr', class_='yf-ewueuo')
+        lines = tbody.find_all('tr')
         for line in lines:
 
-            cells = line.find_all('td', class_='yf-ewueuo')
+            cells = line.find_all('td')
 
             # Extracting data from each cell
             if len(cells) >= 6:  # Ensure there are enough cells to prevent index errors
@@ -84,8 +84,4 @@ def scrape_historical_data(tickers, start_date, end_date):
                 tickers_data.append(record)
 
     return tickers_data
-
-
-# data = scrape_historical_data(
-#     tickers=['AAPL', 'NVDA', 'MSFT'], start_date='2022-01-01', end_date='2022-12-31')
 

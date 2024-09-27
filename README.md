@@ -15,6 +15,7 @@ URL: https://finance.yahoo.com/
 - Option to display and export data as a pandas DataFrame
 - Logging functionality for tracking the scraping process
 - User-friendly command-line interface
+- Visualization (coming soon)
 
 ## Project Structure
 

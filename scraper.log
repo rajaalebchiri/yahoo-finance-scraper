@@ -228,3 +228,95 @@
 2024-09-20 15:54:00,106 - INFO - Fetched 2 tickers
 2024-09-20 15:54:00,108 - INFO - Inserted tickers into the database
 2024-09-20 15:54:00,108 - INFO - Scraping process completed
+2024-09-27 12:46:48,670 - INFO - Starting the scraping process
+2024-09-27 13:02:13,302 - INFO - Starting the scraping process
+2024-09-27 13:02:51,718 - INFO - Starting the scraping process
+2024-09-27 13:02:54,330 - INFO - Fetched 2 tickers
+2024-09-27 13:02:54,337 - INFO - Inserted tickers into the database
+2024-09-27 13:02:54,337 - INFO - Scraping process completed
+2024-09-27 13:18:50,571 - INFO - Starting the scraping process
+2024-09-27 13:18:53,554 - INFO - Fetched 82 historical data
+2024-09-27 13:18:53,561 - INFO - Inserted historical data into the database
+2024-09-27 13:18:53,561 - INFO - Scraping process completed
+2024-09-27 13:18:53,561 - INFO - Starting the scraping process
+2024-09-27 13:18:55,077 - INFO - Fetched 2 tickers
+2024-09-27 13:18:55,078 - INFO - Inserted tickers into the database
+2024-09-27 13:18:55,078 - INFO - Scraping process completed
+2024-09-27 13:50:45,198 - INFO - Starting the ticker scraping process ...
+2024-09-27 13:50:46,796 - INFO - Fetched 2 tickers
+2024-09-27 13:50:46,803 - INFO - Inserted tickers into the database
+2024-09-27 13:50:46,803 - INFO - Scraping process completed
+2024-09-27 14:38:41,264 - INFO - Starting the historical data scraping process
+2024-09-27 14:38:44,000 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:38:44,008 - INFO - Inserted historical data into the database
+2024-09-27 14:39:41,879 - INFO - Starting the historical data scraping process
+2024-09-27 14:39:44,888 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:39:44,894 - INFO - Inserted historical data into the database
+2024-09-27 14:40:06,402 - INFO - Starting the historical data scraping process
+2024-09-27 14:40:09,357 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:40:09,380 - INFO - Inserted historical data into the database
+2024-09-27 14:41:28,668 - INFO - Starting the historical data scraping process
+2024-09-27 14:41:31,768 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:41:31,773 - INFO - Inserted historical data into the database
+2024-09-27 14:42:27,316 - INFO - Starting the historical data scraping process
+2024-09-27 14:42:31,544 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:42:31,551 - INFO - Inserted historical data into the database
+2024-09-27 14:43:38,209 - INFO - Starting the historical data scraping process
+2024-09-27 14:43:41,222 - INFO - Fetched historical data for 82 tickers
+2024-09-27 14:43:41,233 - INFO - Inserted historical data into the database
+2024-09-27 14:43:41,237 - INFO - Converted data to Pandas DataFrame
+2024-09-27 14:43:41,242 - INFO - Exporting data as a CSV with name data.csv
+2024-09-27 14:43:41,242 - INFO - Processing completed successfully
+2024-09-27 18:21:03,562 - INFO - Starting the historical data scraping process
+2024-09-27 18:21:06,102 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:21:06,109 - INFO - Inserted historical data into the database
+2024-09-27 18:21:33,222 - INFO - Starting the historical data scraping process
+2024-09-27 18:21:36,110 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:21:36,116 - INFO - Inserted historical data into the database
+2024-09-27 18:21:36,116 - INFO - Exported data to CSV
+2024-09-27 18:21:36,116 - INFO - Processing completed successfully
+2024-09-27 18:24:05,300 - INFO - Starting the historical data scraping process
+2024-09-27 18:24:07,910 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:24:07,920 - INFO - Inserted historical data into the database
+2024-09-27 18:24:07,922 - INFO - Exported data to CSV
+2024-09-27 18:24:07,922 - INFO - Processing completed successfully
+2024-09-27 18:25:11,797 - INFO - Starting the historical data scraping process
+2024-09-27 18:36:45,131 - INFO - Starting the historical data scraping process
+2024-09-27 18:36:48,195 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:36:48,207 - INFO - Inserted historical data into the database
+2024-09-27 18:36:48,209 - INFO - Exported data to CSV
+2024-09-27 18:36:48,210 - INFO - Processing completed successfully
+2024-09-27 18:37:48,958 - INFO - Starting the historical data scraping process
+2024-09-27 18:37:52,551 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:37:52,562 - INFO - Inserted historical data into the database
+2024-09-27 18:37:52,563 - INFO - Exported data to CSV
+2024-09-27 18:37:52,563 - INFO - Processing completed successfully
+2024-09-27 18:38:55,974 - INFO - Starting the historical data scraping process
+2024-09-27 18:38:58,394 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:38:58,401 - INFO - Inserted historical data into the database
+2024-09-27 18:38:58,401 - INFO - Exported data to CSV
+2024-09-27 18:38:58,401 - INFO - Processing completed successfully
+2024-09-27 18:39:08,664 - INFO - Starting the ticker scraping process ...
+2024-09-27 18:39:11,326 - INFO - Fetched 2 tickers
+2024-09-27 18:39:11,329 - INFO - Inserted tickers into the database
+2024-09-27 18:39:11,329 - INFO - Scraping process completed
+2024-09-27 18:39:11,329 - INFO - Exported data to CSV
+2024-09-27 18:39:11,330 - INFO - Processing completed successfully
+2024-09-27 18:41:12,128 - INFO - Starting the historical data scraping process
+2024-09-27 18:41:14,703 - INFO - Fetched historical data for 82 tickers
+2024-09-27 18:41:14,721 - INFO - Inserted historical data into the database
+2024-09-27 18:41:14,722 - INFO - Exported data to CSV
+2024-09-27 18:41:14,723 - INFO - Processing completed successfully
+2024-09-27 18:43:27,145 - INFO - Starting the ticker scraping process ...
+2024-09-27 18:43:28,448 - INFO - Fetched 2 tickers
+2024-09-27 18:43:28,455 - INFO - Inserted tickers into the database
+2024-09-27 18:43:28,455 - INFO - Scraping process completed
+2024-09-27 18:43:28,456 - INFO - Exported data to CSV
+2024-09-27 18:43:28,456 - INFO - Processing completed successfully
+2024-09-27 18:43:33,104 - INFO - Starting the ticker scraping process ...
+2024-09-27 18:43:34,684 - INFO - Fetched 2 tickers
+2024-09-27 18:43:34,687 - INFO - Inserted tickers into the database
+2024-09-27 18:43:34,687 - INFO - Scraping process completed
+2024-09-27 18:43:34,690 - INFO - Converted data to Pandas DataFrame
+2024-09-27 18:43:34,694 - INFO - Exporting data as a CSV with name data.csv
+2024-09-27 18:43:34,694 - INFO - Processing completed successfully
